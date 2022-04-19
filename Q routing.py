@@ -3,12 +3,8 @@ import TrafficGenerator
 import numpy as np
 import random
 
-Alpha = 0.9
-EPSILON = 0.1
-Clambda = 0.9
-
 class Q_routing:
-     def __init__(self, mapfile, alpha, EPSILON, Clambda):
+     def __init__(self, mapfile, alpha= 0.9, EPSILON= 0.1, Clambda= 0.9):
           
         self.epsilon = epsilon
         self.alpha = alpha
