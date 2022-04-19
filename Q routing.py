@@ -4,7 +4,7 @@ import numpy as np
 import random
 
 Alpha = 0.9
-EPSILON = 0.05
+EPSILON = 0.1
 Clambda = 0.9
 
 class Q_routing:
